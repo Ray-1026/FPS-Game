@@ -1,14 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class NextButton : MonoBehaviour
-{
-    // Start is called before the first frame update
-    public void StartGame()
-    {
-        int status = Player.level;
-        SceneManager.LoadScene(status + 2);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d78346228c4ad9b8ae6bf6dbfbfc519b575c3eb0445e81153650de0d71fc6f0a
+size 345

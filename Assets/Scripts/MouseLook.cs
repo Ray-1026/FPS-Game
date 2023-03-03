@@ -1,26 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MouseLook : MonoBehaviour
-{
-    public Transform player;
-
-    public float mouseSensitivity = 65f;
-
-    public float xRotation;
-
-    private float mouseX, mouseY;
-
-    void Update()
-    {
-        mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime * 15;
-        mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime * 10;
-
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -45f, 45f);
-
-        player.Rotate(Vector3.up * mouseX);
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c79d95f2f36b59c4768c09181ebfc89435cad2b10df05eb018224c61d8b4c94
+size 682
