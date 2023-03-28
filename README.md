@@ -1,4 +1,4 @@
-# NYCU-intro-to-CG-final-project
+# Intro-to-CG-final-project
 
 **FPS game**
 
