@@ -1,7 +1,5 @@
 # Intro-to-CG-final-project
 
-**FPS game**
-
 ### Login
 ![](https://i.imgur.com/JDcnaFh.png)
 
