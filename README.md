@@ -1,4 +1,4 @@
-# Intro-to-CG-final-project
+# FPS-Game
 
 ### Login
 ![](https://i.imgur.com/JDcnaFh.png)
